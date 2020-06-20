@@ -161,9 +161,9 @@ def play_game():
 		clock.tick(30)
 		pygame.display.update()
 
-	score_screen()
+	score_screen(score)
 
-def score_screen():
+def score_screen(score):
 
 	game_over = False
 	restart_game = False
@@ -188,7 +188,10 @@ def score_screen():
 
 	if restart_game:
 		play_game()
+	else:
+		print("Score: " + str(score))
+
 
 play_game()
-print("Score: " + str(score))
+
 
