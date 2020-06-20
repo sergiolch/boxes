@@ -2,6 +2,14 @@
 
 Python boxes game sample. Some boxes will fall and you have to avoid them, as you progress it will get speed it up.
 
+If you have `pygame` installed the run:
+
+```bash
+python main.py
+```
+
+## Install dependencies
+
 To run it install python v3.5
 
 Then instal `pygame`
