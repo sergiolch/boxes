@@ -12,7 +12,7 @@ python main.py
 
 To run it install python v3.5
 
-Then instal `pygame`
+Then install `pygame`
 
 ```bash
 pip install pygame
